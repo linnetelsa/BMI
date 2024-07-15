@@ -1,0 +1,47 @@
+
+.App {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: #f0f2f5;
+}
+
+.bmi-calculator {
+background: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+
+.bmi-calculator h1 {
+margin-bottom: 20px;
+}
+
+.bmi-calculator div {
+margin-bottom: 10px;
+}
+
+.bmi-calculator input {
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.bmi-calculator button {
+padding: 10px 20px;
+background: #007bff;
+border: none;
+border-radius: 4px;
+color: white;
+cursor: pointer;
+}
+
+.bmi-calculator button:hover {
+background: #0056b3;
+}
+
+.bmi-calculator h2 {
+margin-top: 20px;
+}

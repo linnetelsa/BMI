@@ -1,0 +1,126 @@
+
+  
+
+
+.bmi-calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type='number'] {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .calculate-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calculate-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .result h2 {
+    color: #333;
+  }
+  
+  .bmi-message {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .bmi-message.underweight {
+    background-color: #87CEEB; /* Light blue for underweight */
+  }
+  
+  .bmi-message.normalweight {
+    background-color: #7CFC00; /* Light green for normal weight */
+  }
+  
+  .bmi-message.overweight {
+    background-color: #FFA500; /* Orange for overweight */
+  }
+  
+  .bmi-message.obesity {
+    background-color: #FF6347; /* Light red for obesity */
+  }
+  
+  .health-tips {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: slide-up 0.5s ease;
+  }
+  
+  .health-tips h3 {
+    color: #333;
+  }
+  
+  .health-tips ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .health-tips ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .health-tips ul li::before {
+    content: '•';
+    color: #4caf50;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  /* Keyframes for animations */
+@keyframes slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
